@@ -2,6 +2,57 @@ body {
     padding-top: 5rem;
 }
 
-footer  {
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
     padding-top: 20px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+img {
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+}
+
+.news {
+    margin-top: 10px;
+}
+
+.news__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.news__item {
+    border: 1px solid #dfe3ee;
+    border-top: 3px solid #428bca;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(115, 115, 115, 0.7);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(115, 115, 115, 0.7);
+    box-shadow: 0px 0px 14px 0px rgba(115, 115, 115, 0.7);
+}
+
+.news__item h4 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.news__item p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.form-inline {
+    padding: 20px;
 }
